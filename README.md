@@ -1,16 +1,16 @@
-# cat_and_dog_detection
+# Object dectection with Flutter
 
-A new Flutter project.
+## Installation
 
-## Getting Started
+### IOS
 
-This project is a starting point for a Flutter application.
+You need to download [TensorflowLiteC.Framework](https://github.com/tensorflow/flutter-tflite/issues/29#:~:text=Download-,TensorFlowLiteC.framework,-.%20For%20building%20a) and add to your %YOURPROJECT%/ios/.symlinks/plugins/tflite_flutter/ios/ before running
 
-A few resources to get you started if this is your first Flutter project:
+### ANDROID
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Execute `install.sh`(linux) or `install.bat`(windows) for downloading tflite binaries.
+More info [here](https://github.com/am15h/tflite_flutter_plugin#important-initial-setup).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## DEMO
+
+![DEMO](demo.gif)
